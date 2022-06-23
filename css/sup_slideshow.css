@@ -1,0 +1,23 @@
+#gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 5px;
+  }
+  .ss-gallery,
+#gallery-grid>div {
+    font-size: 14px;
+    padding: .5em;
+    color: #333;
+    background: #cecdc9;
+    text-align: center;
+  }
+  #gallery-grid>div img {
+      margin-bottom: 5px;
+  }
+
+
+#sup_image_list li {
+	padding-right: 10px;
+	display: inline;
+    list-style-type: none;
+}
